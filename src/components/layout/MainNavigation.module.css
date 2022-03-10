@@ -1,0 +1,48 @@
+.header {
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+    background-color: rgba(0, 0, 0, 0.836);
+    color: #fff;
+}
+
+.logo{
+    display: inline-block;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+}
+
+.header ul{
+    list-style: none;
+}
+
+.header ul li{
+    display: inline-block;
+    margin-left: 2rem;
+    padding: 0.4rem;
+    border-radius: 5px;
+    width: 8rem;
+    text-align: center;
+}
+
+.header ul li a {
+    text-decoration: none;
+    color: #fff;
+    background-color: orangered;
+    padding: 0.4rem;
+}
+
+.header ul li .selected{
+    background-color: grey;
+}
+
+.header ul li span {
+    padding:0.2rem;
+    border-radius: 100px;
+    background-color: yellow;
+    color: #000;
+}
